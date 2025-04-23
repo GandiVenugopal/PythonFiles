@@ -2,7 +2,6 @@
 import math
 
 points = [(0, 0), (3, 4), (7, 1)]
-
 dist = []
 
 for i in range(len(points)-1):

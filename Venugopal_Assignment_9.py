@@ -1,5 +1,6 @@
 # Scenario:
-#  Given a paragraph, write a program to calculate the frequency of each word (case-insensitive) and display the top 5 most frequent words.
+#  Given a paragraph, write a program to calculate the frequency of each word (case-insensitive)
+#  and display the top 5 most frequent words.
 import string
 
 str=input()
@@ -21,7 +22,6 @@ for word in str_lt:
         word_counts[word] += 1
     else:
         word_counts[word] = 1
-
 
 sorted_words = sorted(word_counts.items(), key=lambda item: item[1], reverse=True)
 
