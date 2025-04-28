@@ -4,7 +4,7 @@ import math
 points = [(0, 0), (3, 4), (7, 1)]
 dist = []
 
-for i in range(len(points)-1):
+for i in range(len(points)-1):  #1 #2
     x1, y1 = points[i]
     x2, y2 = points[i+1]
 
